@@ -37,21 +37,23 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#" aria-current="page" class="nav-link active"
+              <a href="#conferencia" aria-current="page" class="nav-link active"
                 >La conferencia</a
               >
             </li>
             <li class="nav-item">
-              <a href="#question" class="nav-link">Los oradores</a>
+              <a href="#oradores" class="nav-link">Los oradores</a>
             </li>
             <li class="nav-item">
-              <a href="#question" class="nav-link">El lugar y la fecha</a>
+              <a href="#lugar_fecha" class="nav-link">El lugar y la fecha</a>
             </li>
             <li class="nav-item">
-              <a href="#question" class="nav-link">Conviértete en orador</a>
+              <a href="#conviertete_orador" class="nav-link"
+                >Conviértete en orador</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#question" class="nav-link text-success"
+              <a href="#comprar_ticket" class="nav-link text-success"
                 >Comprar tickets</a
               >
             </li>
@@ -59,7 +61,7 @@
         </div>
       </div>
     </nav>
-    <section>
+    <section id="conferencia">
       <!-- <img
         src="img/ba1.jpg"
         alt=""
@@ -120,12 +122,16 @@
                 Codo y los oradores de primer nivel que tenemos para ti. Te
                 esperamos!
               </p>
-              <button type="button" class="btn btn-outline-light">
-                Quiero ser orador
-              </button>
-              <button class="btn btn-success" type="submit">
-                Comprar tickets
-              </button>
+              <a href="#conviertete_orador">
+                <button type="button" class="btn btn-outline-light">
+                  Quiero ser orador
+                </button>
+              </a>
+              <a href="#comprar_ticket">
+                <button class="btn btn-success" type="button">
+                  Comprar tickets
+                </button>
+              </a>
             </div>
           </div>
           <div
@@ -143,12 +149,16 @@
               <p>
                 Some representative placeholder content for the second slide.
               </p>
-              <button type="button" class="btn btn-outline-light">
-                Quiero ser orador
-              </button>
-              <button class="btn btn-success" type="submit">
-                Comprar tickets
-              </button>
+              <a href="#conviertete_orador">
+                <button type="button" class="btn btn-outline-light">
+                  Quiero ser orador
+                </button>
+              </a>
+              <a href="#comprar_ticket">
+                <button class="btn btn-success" type="button">
+                  Comprar tickets
+                </button>
+              </a>
             </div>
           </div>
           <div
@@ -166,12 +176,16 @@
               <p>
                 Some representative placeholder content for the third slide.
               </p>
-              <button type="button" class="btn btn-outline-light">
-                Quiero ser orador
-              </button>
-              <button class="btn btn-success" type="submit">
-                Comprar tickets
-              </button>
+              <a href="#conviertete_orador">
+                <button type="button" class="btn btn-outline-light">
+                  Quiero ser orador
+                </button>
+              </a>
+              <a href="#comprar_ticket">
+                <button class="btn btn-success" type="button">
+                  Comprar tickets
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -195,7 +209,7 @@
           </button> -->
       </div>
     </section>
-    <section>
+    <section id="oradores">
       <div class="container">
         <div class="container text-center py-2">
           <p class="fs-6 m-0">CONOCE A LOS</p>
@@ -254,7 +268,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="lugar_fecha">
       <div class="mx-0 my-2 px-0">
         <div class="card text-white bg-secondary">
           <div class="row g-0">
@@ -285,16 +299,14 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="conviertete_orador">
       <div class="container">
         <div class="container text-center py-2">
           <p class="fs-6 m-0"><small> CONVIÉRTETE EN UN </small></p>
           <h2 class="m-0">ORADOR</h2>
           <p>
             Anótate como orador para dar una
-            <a
-              href="#!"              
-              style="text-decoration-style: dotted; color: #000;"
+            <a href="#!" style="text-decoration-style: dotted; color: #000"
               >charla ignite</a
             >. Cuentános de qué quieres hablar!
           </p>
@@ -333,10 +345,118 @@
         </form>
       </div>
     </section>
+    <section id="comprar_ticket">
+      <div class="container">
+        <div class="mx-5 px-5 mb-2 mt-5">
+          <div class="row g-2 text-center px-2">
+            <div class="col">
+              <div class="card border-primary rounded-0">
+                <div class="card-body">
+                  <h4 class="card-title">Estudiante</h4>
+                  <p class="card-text fs-5">Tienen un descuento</p>
+                  <p class="fs-5 fw-bold">80%</p>
+                  <p class="text-secondary">*presentar documentación</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-info rounded-0">
+                <div class="card-body">
+                  <h4 class="card-title">Trainee</h4>
+                  <p class="card-text fs-5">Tienen un descuento</p>
+                  <p class="fs-5 fw-bold">50%</p>
+                  <p class="text-secondary">*presentar documentación</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-warning rounded-0">
+                <div class="card-body">
+                  <h4 class="card-title">Junior</h4>
+                  <p class="card-text fs-5">Tienen un descuento</p>
+                  <p class="fs-5 fw-bold">15%</p>
+                  <p class="text-secondary">*presentar documentación</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center py-2">
+          <p class="fs-6 m-0"><small> VENTA </small></p>
+          <h2 class="m-0">VALOR DE TICKET $200</h2>
+        </div>
+        <form
+          class="row g-3 mx-5 px-5 mb-4"
+          name="form_ticket"
+          id="form_ticket"
+        >
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              id="inputNombre"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              id="inputApellido"
+              placeholder="Apellido"
+            />
+          </div>
+          <div class="col-md-12">
+            <input
+              type="email"
+              class="form-control"
+              id="inputCorreo"
+              placeholder="Correo"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCantidad" class="form-label">Cantidad</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCantidad"
+              placeholder="cantidad"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCategoria" class="form-label">Categoria</label>
+            <select
+              class="form-select"
+              id="inputCategoria"
+              aria-label="Default select example"
+            >
+              <option selected value="sin_categoria">Sin categoria</option>
+              <option value="estudiante">Estudiante</option>
+              <option value="trainee">Trainee</option>
+              <option value="junior">Junior</option>
+            </select>
+          </div>
+          <div class="col-md-12" id="alert-total">
+            <div class="alert alert-primary" role="alert">
+              Total a Pagar: $ <span id="total"></span>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-grid">
+            <button type="reset" class="btn btn-success btn-lg">Borrar</button>
+          </div>
+          <div class="col-md-6 d-grid">
+            <button type="submit" class="btn btn-success btn-lg">
+              Resumen
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
     <footer class="text-center text-white">
       <div class="mt-8" style="background-color: #1d3a4a !important">
         <ul
-          class="nav justify-content-center text-white  nav-fill py-4 px-5 mx-3"      
+          class="nav justify-content-center text-white nav-fill py-4 px-5 mx-3"
         >
           <li class="nav-item">
             <a
@@ -384,5 +504,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
